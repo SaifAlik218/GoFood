@@ -1,0 +1,650 @@
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/jr/lp34w0jd51d4_4f0tlyxflz00000gp/T/testng-eclipse--2143156174/testng-customsuite.xml
+
+2026-07-01 17:30:06 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-07-01 17:30:06 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 17:30:11 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 17:30:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 17:30:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 17:30:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 17:30:14 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 17:30:17 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 17:30:17 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@10667848: 24 ms
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@453d496b: 1 ms
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4441d567: 5 ms
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@14f3c6fc: 3 ms
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@14bf57b2: 3 ms
+2026-07-01 17:30:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@46d9aec8: 0 ms
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/jr/lp34w0jd51d4_4f0tlyxflz00000gp/T/testng-eclipse-989633085/testng-customsuite.xml
+
+2026-07-01 22:48:28 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-07-01 22:48:28 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 22:48:28 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 22:48:28 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 22:48:38 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 22:48:39 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 22:48:39 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 22:48:41 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 22:48:43 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 22:48:48 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 22:48:48 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@256aa5f2: 21 ms
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1c504e66: 4 ms
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@17b64941: 4 ms
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6aef4eb8: 3 ms
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1f6d27cc: 3 ms
+2026-07-01 22:48:49 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4393593c: 0 ms
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/jr/lp34w0jd51d4_4f0tlyxflz00000gp/T/testng-eclipse--2104578867/testng-customsuite.xml
+
+2026-07-01 22:49:55 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-07-01 22:49:55 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 22:49:55 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 22:49:55 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 22:50:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 22:50:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 22:50:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 22:50:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 22:50:04 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 22:50:07 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 22:50:07 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@191a709b: 19 ms
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@66bacdbc: 1 ms
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3e1624c7: 5 ms
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3cd59ef5: 3 ms
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@46d9aec8: 2 ms
+2026-07-01 22:50:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@14379273: 0 ms
+2026-07-01 23:05:18 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:06:56 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:06:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:06:56 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:06:56 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:06:56 [TestNG-tests-2] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:06:56 [TestNG-tests-2] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:06:56 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:06:56 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:06:56 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:06:56 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:07:02 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:07:02 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:07:02 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:07:04 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:07:04 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:07:04 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:07:07 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:07:08 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:07:09 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:07:09 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:07:09 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:07:09 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:07:10 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:07:10 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:07:10 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:07:10 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:08:00 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:08:01 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:08:01 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:08:02 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:08:04 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:08:09 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:08:10 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:08:15 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:08:15 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:08:20 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:08:20 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:08:20 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:08:38 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:08:38 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:08:38 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:08:38 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:08:38 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:08:38 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:08:38 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:10:13 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:10:13 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:10:13 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:10:13 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:10:13 [TestNG-tests-1] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:10:13 [TestNG-tests-1] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:10:13 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:13 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:13 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:10:13 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:10:21 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:10:21 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:21 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:10:21 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:10:21 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:21 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:10:27 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:10:28 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:10:28 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:10:28 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:28 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:10:49 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:10:50 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:10:50 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:10:50 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:10:50 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:11:03 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:11:04 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:11:04 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:11:06 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:11:07 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:11:13 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:11:13 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:11:18 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:11:18 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:11:21 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:11:23 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:11:23 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:11:23 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:11:23 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:11:23 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 32
+2026-07-01 23:11:24 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:11:24 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:11:24 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:11:24 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:11:24 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:11:24 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:11:24 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:11:24 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 32
+2026-07-01 23:11:25 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:11:31 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:11:31 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:11:37 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:11:37 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:11:42 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:11:42 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:11:42 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:12:02 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:12:02 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:12:02 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:12:02 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:12:02 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:12:02 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:12:02 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:14:21 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:14:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:14:21 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:14:21 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:14:21 [TestNG-tests-1] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:14:21 [TestNG-tests-1] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:14:21 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:21 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:21 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:14:21 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:14:28 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:14:28 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:28 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:14:30 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:14:30 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:30 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:14:35 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:14:35 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:14:37 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:14:37 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 32====
+2026-07-01 23:14:37 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:37 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:14:37 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:14:37 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 33====
+2026-07-01 23:14:37 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:14:37 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:15:11 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:15:12 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:15:12 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:15:14 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:15:15 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:15:22 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:15:22 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:15:27 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:15:27 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:15:32 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:15:33 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:15:33 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 32
+2026-07-01 23:15:38 [TestNG-tests-1] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:15:38 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:15:38 [TestNG-tests-1] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:15:38 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:15:38 [TestNG-tests-1] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 32
+2026-07-01 23:15:38 [TestNG-tests-1] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:15:38 [TestNG-tests-1] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 32
+2026-07-01 23:16:08 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:16:14 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter location: jakarta
+2026-07-01 23:16:20 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:16:25 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:16:25 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:16:30 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:16:31 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:16:36 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:16:36 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:16:36 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:16:36 [TestNG-tests-2] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:16:36 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:16:36 [TestNG-tests-2] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:16:36 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:16:36 [TestNG-tests-2] ERROR com.gofood.Factory.DriverFactory - getDriver() called before initDriver() on thread: 33
+2026-07-01 23:16:36 [TestNG-tests-2] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:16:36 [TestNG-tests-2] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 33
+2026-07-01 23:17:54 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:17:54 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:17:54 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:17:54 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:17:54 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:17:54 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:17:54 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:18:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:18:05 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:18:07 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:18:07 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:18:07 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:18:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:18:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:18:12 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:18:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:18:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:18:14 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:18:15 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:18:18 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:18:18 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:18:18 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:18:18 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:18:18 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:18:18 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:18:23 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:18:24 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:18:24 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:18:25 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:18:26 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:18:31 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:18:31 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:18:31 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:34:56 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:34:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:34:56 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:34:56 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:34:56 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:34:56 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:34:56 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:35:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:35:04 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:35:04 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:35:04 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:35:04 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:35:04 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:09 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:35:10 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:35:10 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:35:16 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:35:16 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:35:21 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 81471006842
+2026-07-01 23:35:21 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:35:21 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:35:21 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:35:21 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:35:21 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:25 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:35:26 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:35:26 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:35:27 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:35:28 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:35:30 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:35:30 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:35:30 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:35:30 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:35:30 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:35:30 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:34 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:35:39 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:35:40 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:35:40 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:35:41 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:35:41 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:35:41 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:45 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:35:46 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:35:46 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:35:47 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:35:48 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:35:50 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:35:50 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:35:50 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:35:51 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:35:51 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:35:51 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:35:56 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:35:57 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:35:57 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:35:58 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:35:59 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:36:02 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:36:02 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:36:02 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:47:34 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:47:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:47:34 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:47:34 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:47:34 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:47:34 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:47:34 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:47:38 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:47:40 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:47:41 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:47:41 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:47:41 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:47:41 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:47:41 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:47:45 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:47:47 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:47:47 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:47:47 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:47:48 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:47:51 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:47:51 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:47:51 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:47:51 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:47:51 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:47:51 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:47:55 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:47:56 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:47:56 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:47:57 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:47:58 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:48:00 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:48:00 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:48:00 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:48:00 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:48:00 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:48:00 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:48:04 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:48:06 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:48:07 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:48:07 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:48:07 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:48:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:48:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:48:10 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:48:12 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:48:12 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:48:12 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:48:13 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:48:16 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:48:16 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:48:16 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:48:17 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:48:17 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:48:17 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:48:20 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:48:21 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:48:21 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:48:22 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:48:23 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 81471006842
+2026-07-01 23:48:25 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 81471006842
+2026-07-01 23:48:25 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:48:25 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:53:34 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:53:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:53:34 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:53:34 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:53:34 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:53:34 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:53:34 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:53:41 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:53:45 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:53:46 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:53:46 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:53:46 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:53:46 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:53:46 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:53:51 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:53:53 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:53:53 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:53:53 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:53:54 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:53:57 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:53:57 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:53:57 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:53:57 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:53:57 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:53:57 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:54:02 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:54:04 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:54:04 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:54:04 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:54:05 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:54:08 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:54:08 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:54:08 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:54:08 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:54:08 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:54:08 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:54:15 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:54:18 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:54:20 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:54:20 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:54:20 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:54:20 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:54:20 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:54:25 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:54:26 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:54:26 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:54:27 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:54:27 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:54:29 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:54:29 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:54:29 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:54:29 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:54:29 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:54:29 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:54:35 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:54:36 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:54:36 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:54:38 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to select restro and dish
+2026-07-01 23:54:43 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:54:48 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 3626483168
+2026-07-01 23:54:48 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:54:48 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:07 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:55:07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:55:07 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:07 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:55:07 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:55:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:07 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:55:12 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:55:14 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:55:16 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:55:16 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:16 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:16 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:16 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:55:20 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:55:22 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:55:22 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:55:22 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:55:23 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:55:25 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:55:25 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:55:25 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:26 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:26 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:26 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:55:31 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:55:32 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:55:32 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:55:33 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:55:34 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:55:36 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:55:36 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:55:36 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:36 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:36 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:36 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:55:42 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:55:44 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:55:46 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:55:46 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:46 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:46 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:46 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:55:50 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:55:51 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:55:51 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:55:52 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:55:53 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:55:56 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:55:56 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:55:56 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:55:56 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:55:56 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:55:56 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:56:00 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:56:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:56:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:56:02 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:56:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:56:05 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:56:05 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:56:05 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:56:45 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [/Users/testuser/Desktop/Selenium/com.gofood/runner.xml] otherwise TestNG may fail or not work as expected.
+2026-07-01 23:56:45 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/testuser/Desktop/Selenium/com.gofood/runner.xml
+
+2026-07-01 23:56:45 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:56:45 [main] INFO  com.gofood.Utility.ConfigReader - Loading config file from path: ./src/test/resources/config.properties
+2026-07-01 23:56:45 [main] INFO  com.gofood.Utility.ConfigReader - Config file loaded successfully
+2026-07-01 23:56:45 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:56:45 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:56:51 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:56:53 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:56:54 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:56:54 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:56:54 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:56:54 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:56:54 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:56:58 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:57:00 [main] INFO  com.gofood.Utility.CommonFlowUtils - Sucessfully entered location: jakarta
+2026-07-01 23:57:00 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to select restro and dish:
+2026-07-01 23:57:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully selected restro and dish:
+2026-07-01 23:57:01 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:57:03 [main] INFO  com.gofood.Utility.CommonFlowUtils - Successfully entered phonenumber: 3626483168
+2026-07-01 23:57:03 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:57:03 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1
+2026-07-01 23:57:03 [main] INFO  com.gofood.BaseTest.BaseTest - ===Starting test on thread: 1====
+2026-07-01 23:57:03 [main] INFO  com.gofood.Factory.DriverFactory - Initializing driver for browser: chrome
+2026-07-01 23:57:03 [main] INFO  com.gofood.Factory.DriverFactory - Initializing Chrome driver for browser: chrome
+2026-07-01 23:57:17 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter location: jakarta
+2026-07-01 23:57:22 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter location: jakarta
+2026-07-01 23:57:28 [main] INFO  com.gofood.Utility.CommonFlowUtils - Attempting to enter phonenumber: 3626483168
+2026-07-01 23:57:33 [main] ERROR com.gofood.Utility.CommonFlowUtils - Failed to enter phonenumber 3626483168
+2026-07-01 23:57:33 [main] INFO  com.gofood.BaseTest.BaseTest - === Test finished, quitting driver ===
+2026-07-01 23:57:33 [main] INFO  com.gofood.Factory.DriverFactory - Quitting driver on thread: 1

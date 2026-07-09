@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-07T22:47:49 IST" name="Default suite" finished-at="2026-07-07T22:48:09 IST" duration-ms="20589">
+    <groups>
+    </groups>
+    <test started-at="2026-07-07T22:47:49 IST" name="Default test" finished-at="2026-07-07T22:48:09 IST" duration-ms="20589">
+      <class name="com.gofood.TestCases.SearchPlaceAndSelectRestroTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:47:49 IST" name="setup" finished-at="2026-07-07T22:47:59 IST" duration-ms="10765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:47:59 IST" name="initSoftAssert" finished-at="2026-07-07T22:47:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSoftAssert -->
+        <test-method signature="searchPlace()[pri:1, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:47:59 IST" name="searchPlace" finished-at="2026-07-07T22:48:03 IST" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPlace -->
+        <test-method signature="selectRestro()[pri:2, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:48:03 IST" name="selectRestro" finished-at="2026-07-07T22:48:06 IST" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRestro -->
+        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:48:03 IST" name="initSoftAssert" finished-at="2026-07-07T22:48:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSoftAssert -->
+        <test-method signature="loginToAccount()[pri:3, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:48:06 IST" name="loginToAccount" finished-at="2026-07-07T22:48:09 IST" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAccount -->
+        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.SearchPlaceAndSelectRestroTest@56dc1551]" started-at="2026-07-07T22:48:06 IST" name="initSoftAssert" finished-at="2026-07-07T22:48:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSoftAssert -->
+      </class> <!-- com.gofood.TestCases.SearchPlaceAndSelectRestroTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -2,16 +2,21 @@ package com.gofood.Utility;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.gofood.BasePage.BasePage;
 import com.gofood.Factory.DriverFactory;
 import com.gofood.PageUtility.CuisineSection;
+import com.gofood.PageUtility.FoodCheckoutPage;
 import com.gofood.PageUtility.SearchRestroPage;
 import com.gofood.PageUtility.SelectDishPage;
 
 public class CommonActions extends BasePage {
+	private static final Logger log = LoggerFactory.getLogger(CommonActions.class);
 	public CommonActions() {
 		super(DriverFactory.getDriver());
 	}
@@ -104,5 +109,17 @@ public class CommonActions extends BasePage {
 		loginToPurchaseButton.click();
 		return new SearchRestroPage();
 	}
+//
+//	public SearchRestroPage clickCloseicon() {
+//		WaitUtils.waitForClickable(closeicon, 5);
+//		closeicon.click();
+//		return new SearchRestroPage();
+//	}
 
+	public FoodCheckoutPage clickCloseicon() {
+		By closeLocator = By.xpath("//button[@data-testid='modal-close-button']");
+		WebElement closeIcon = WaitUtils.waitForClickable(closeLocator, 10);
+		closeIcon.click();
+		return new FoodCheckoutPage();
+	}
 }

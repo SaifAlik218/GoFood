@@ -19,7 +19,17 @@ public class ActionUtils {
 
 	public static void scrollToElement(WebElement element) {
 		JavascriptExecutor jse = (JavascriptExecutor) DriverFactory.getDriver();
-		jse.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+		jse.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", element);
+//		jse.executeScript("arguments[0].scrollIntoView(true)", element);
+		try {
+			Thread.sleep(300); // only acceptable here — waiting for JS animation, not page load
+		} catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		}
+	}
+	public static void scrollToElement(By locator) {
+		JavascriptExecutor jse = (JavascriptExecutor) DriverFactory.getDriver();
+		jse.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", locator);
 //		jse.executeScript("arguments[0].scrollIntoView(true)", element);
 		try {
 			Thread.sleep(300); // only acceptable here — waiting for JS animation, not page load

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gofood.TestCases.SearchPlaceAndSelectRestroTest">
+      <class name="com.gofood.TestCases.AddMoreDishFromCheckoutPageTest">
         <methods>
-          <include name="loginToAccount"/>
-          <include name="selectRestro"/>
+          <include name="verifySelectBaksoSotoRestro"/>
           <include name="setup"/>
           <include name="initSoftAssert"/>
         </methods>
-      </class> <!-- com.gofood.TestCases.SearchPlaceAndSelectRestroTest -->
+      </class> <!-- com.gofood.TestCases.AddMoreDishFromCheckoutPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

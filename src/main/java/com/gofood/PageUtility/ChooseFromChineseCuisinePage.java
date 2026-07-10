@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import com.gofood.BasePage.BasePage;
 import com.gofood.Factory.DriverFactory;
 
-public class ChooseFromCuisinePage extends BasePage {
-	public ChooseFromCuisinePage() {
+public class ChooseFromChineseCuisinePage extends BasePage {
+	public ChooseFromChineseCuisinePage() {
 		super(DriverFactory.getDriver());
 	}
 

@@ -42,6 +42,21 @@ public class FoodCheckoutPage extends BasePage {
 	@FindBy(xpath = "//span[contains(@class,'absolute') and .//svg]")
 	private WebElement tooltipCloseIcon;
 
+	@FindBy(xpath = "//a[contains(@class,'inline-flex cursor-pointer appearance-none') and .//span[normalize-space()='Add more']]")
+	private WebElement addMoreButton;
+
+	@FindBy(xpath = "//button[contains(@class,'inline-flex cursor-pointer appearance-none') and .//span[normalize-space()='View detailed breakdown']]")
+	private WebElement viewDetailBreakdown;
+
+	@FindBy(xpath = "//span[normalize-space()='Ok, got it']")
+	private WebElement okGotItButton;
+
+	@FindBy(xpath = "//div[normalize-space()='Check exciting promos here']")
+	private WebElement checkexcitingpromosLink;
+
+	@FindBy(xpath = "//div[contains(@class,'gf-label-s md:gf-label-m line-clamp-1 text-gf-content-brand')and normalize-space()='Check more promos']")
+	private WebElement checkmorepromosLink;
+
 	public FoodCheckoutPage selectCepaatService() {
 		WaitUtils.waitForClickable(cepaatRadioButton, 5);
 		ActionUtils.scrollToElement(cepaatRadioButton);
@@ -73,12 +88,12 @@ public class FoodCheckoutPage extends BasePage {
 		return totalPrice;
 	}
 
-	public FoodCheckoutPage selectPaymentMethod()
-	{
+	public FoodCheckoutPage selectPaymentMethod() {
 		WaitUtils.waitForClickable(paymentMethodButton, 5);
-		paymentMethodButton.click();	
+		paymentMethodButton.click();
 		return this;
 	}
+
 	public FoodCheckoutPage clickGofoodButton() {
 		WaitUtils.waitForClickable(gofoodButton, 20);
 //		ActionUtils.click(gofoodButton);
@@ -87,25 +102,49 @@ public class FoodCheckoutPage extends BasePage {
 		return this;
 	}
 
-//	public FoodCheckoutPage closeIcon() {
-//		WaitUtils.waitForClickable(tooltipCloseIcon, 5);
-//		if (tooltipCloseIcon.isDisplayed()) {
-//			ActionUtils.click(tooltipCloseIcon);
-//		}
-//		return this;
-//	}
+	public FoodCheckoutPage clickAddMoreButton() {
+		WaitUtils.waitForVisibility(addMoreButton, 10);
+		ActionUtils.scrollToElement(addMoreButton);
+		WaitUtils.waitForClickable(addMoreButton, 5);
+		addMoreButton.click();
+		return this;
+	}
 
 	public FoodCheckoutPage clickDoubleCheckGoFoodbutton() {
 
 //		WebElement modalButton = ActionUtils.getVisibleElement(By.xpath("//span[text()='GoFood now']"));s
-	    WaitUtils.waitForClickable(doubleCheckGoFoodbutton, 5);
-	    ActionUtils.click(doubleCheckGoFoodbutton);
-	    return this;
+		WaitUtils.waitForClickable(doubleCheckGoFoodbutton, 5);
+		ActionUtils.click(doubleCheckGoFoodbutton);
+		return this;
 //		WebElement visibleButton = ActionUtils.getVisibleElement(By.xpath("//span[text()='GoFood now']"));
 //		WaitUtils.waitForClickable(visibleButton, 10);
 //		ActionUtils.click(visibleButton);
 //		visibleButton.click();
 //		return this;
 	}
-//
+
+	public FoodCheckoutPage clickViewDetailBreakdown() {
+		WaitUtils.waitForClickable(viewDetailBreakdown, 10);
+		ActionUtils.scrollToElement(viewDetailBreakdown);
+		viewDetailBreakdown.click();
+		return this;
+	}
+
+	public FoodCheckoutPage clickOkGotItButton() {
+		WaitUtils.waitForClickable(okGotItButton, 10);
+		ActionUtils.scrollToElement(okGotItButton);
+		okGotItButton.click();
+		return this;
+	}
+
+	public FoodCheckoutPage clickCheckexcitingpromosLink() {
+		By checkexcitingpromosLocator = By.xpath("//div[normalize-space()='Check exciting promos here']");
+		By checkmorepromosLinkLocator = By.xpath(
+				"//div[contains(@class,'gf-label-s md:gf-label-m line-clamp-1 text-gf-content-brand')and normalize-space()='Check more promos']");
+		WebElement target = WaitUtils.waitForAnyVisible(10, checkexcitingpromosLocator, checkmorepromosLinkLocator);
+		ActionUtils.scrollToElement(target);
+		WaitUtils.waitForClickable(target, 10);
+		target.click();
+		return this;
+	}
 }

@@ -15,25 +15,25 @@ import com.gofood.Utility.ConfigReader;
 public class BaseTest {
 	protected SoftAssert softAssert;
 	private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
+
 	@Parameters("browser")
 	@BeforeClass
-	public  void setup() throws Exception {
+	public void setup() throws Exception {
 		log.info("===Starting test on thread: {}====", Thread.currentThread().getId());
 		DriverFactory.initializeDriver(ConfigReader.getInstance().getConfig("browser"));
 		DriverFactory.getDriver().get(ConfigReader.getInstance().getConfig("url"));
 		DriverFactory.getDriver().manage().window().maximize();
 		new LoginPage().clickAcceptCookies();
 	}
+
 	@BeforeMethod
-	public void initSoftAssert()
-	{
+	public void initSoftAssert() {
 		softAssert = new SoftAssert();
 	}
-
+//
 //	@AfterClass
 //	public void teardown() {
 //		log.info("=== Test finished, quitting driver ===");
 //		DriverFactory.teardown();
 //	}
-
 }

@@ -3,12 +3,17 @@ package com.gofood.PageUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.gofood.BasePage.BasePage;
 import com.gofood.Factory.DriverFactory;
+import com.gofood.Utility.ActionUtils;
 import com.gofood.Utility.WaitUtils;
 
 public class SearchRestroPage extends BasePage {
+	private static final Logger log = LoggerFactory.getLogger(SearchRestroPage.class);
+
 	public SearchRestroPage() {
 		super(DriverFactory.getDriver());
 	}
@@ -33,13 +38,14 @@ public class SearchRestroPage extends BasePage {
 	}
 
 	public SearchRestroPage clickBakmieBaksoRestro() {
-		WaitUtils.waitForClickable(Bakmie_Bakso17Restro, 5);
+		ActionUtils.scrollToElement(Bakmie_Bakso17Restro);
+		WaitUtils.waitForClickable(Bakmie_Bakso17Restro, 10);
 		Bakmie_Bakso17Restro.click();
 		return this;
 	}
 
 	public SearchRestroPage addBakmieAyan() {
-		WaitUtils.waitForClickable(BakmieAyamAddButton, 5);
+		WaitUtils.waitForClickable(BakmieAyamAddButton, 10);
 //		ActionUtils.scrollToElement(BakmieAyamAddButton);
 		BakmieAyamAddButton.click();
 		return this;
@@ -52,8 +58,10 @@ public class SearchRestroPage extends BasePage {
 	}
 
 	public SearchRestroPage loginToPurchaseButton() {
+		log.info("Attempting to click on loginToPurchaseButton ");
 		WaitUtils.waitForClickable(loginToPurchase, 5);
 		loginToPurchase.click();
+		log.info("Successfully clicked on loginToPurchaseButton ");
 		return this;
 	}
 

@@ -17,6 +17,7 @@ import com.gofood.PageUtility.SelectDishPage;
 
 public class CommonActions extends BasePage {
 	private static final Logger log = LoggerFactory.getLogger(CommonActions.class);
+
 	public CommonActions() {
 		super(DriverFactory.getDriver());
 	}
@@ -118,8 +119,15 @@ public class CommonActions extends BasePage {
 
 	public FoodCheckoutPage clickCloseicon() {
 		By closeLocator = By.xpath("//button[@data-testid='modal-close-button']");
+
 		WebElement closeIcon = WaitUtils.waitForClickable(closeLocator, 10);
+
+		ActionUtils.scrollToElement(closeIcon);
+
 		closeIcon.click();
+
+		WaitUtils.waitForInvisibility(closeLocator, 10);
+
 		return new FoodCheckoutPage();
 	}
 }

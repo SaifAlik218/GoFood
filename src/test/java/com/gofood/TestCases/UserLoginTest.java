@@ -1,5 +1,8 @@
 package com.gofood.TestCases;
 
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import com.gofood.BaseTest.BaseTest;
@@ -9,27 +12,20 @@ import com.gofood.Utility.CommonFlowUtils;
 import com.gofood.Utility.TestDataUtils;
 
 public class UserLoginTest extends BaseTest {
-	LoginPage page;
-	String username = "S2";
+	private String username = "A";
 
-	@Test(priority = 1)
-	public void landingPage() {
-		page = new LoginPage().headerLoginButton();
-	}
-
-	@Test(priority = 2, dependsOnMethods = "landingPage")
-	public void loginPage() {
-		CommonFlowUtils.loginToAccount(TestDataUtils.getPhoneNumber(),
-				TestDataUtils.getOTP());
-
-	}
-
-	@Test(priority = 3, dependsOnMethods = "loginPage")
-	public void validateUserProfile() {
+	@Parameters({ "phoneNumber", "OTP" })
+	@Test
+	public void verifyUserLoginAndProfile(String phoneNumber,String OTP) {
+		// Navigate to Login Page
+		LoginPage page = new LoginPage();
+		page.headerLoginButton();
+		// enter phoneNumber and OTP
+		CommonFlowUtils.loginToAccount(phoneNumber, OTP);
+//		CommonFlowUtils.loginToAccount(TestDataUtils.getPhoneNumber1(), TestDataUtils.getOTP());
 		UserProfilePage profile = new UserProfilePage();
 		String actual = profile.getUserProfile();
 		softAssert.assertEquals(actual, username, "Expected to be user profile name as :" + username);
 		softAssert.assertAll();
 	}
-
 }

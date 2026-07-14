@@ -27,6 +27,7 @@ public class ActionUtils {
 			Thread.currentThread().interrupt();
 		}
 	}
+
 	public static void scrollToElement(By locator) {
 		JavascriptExecutor jse = (JavascriptExecutor) DriverFactory.getDriver();
 		jse.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", locator);
@@ -65,10 +66,61 @@ public class ActionUtils {
 		}
 	}
 
+	public static void retryClick(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getDriver();
+
+		Long centerX = (long) element.getRect().getX() + element.getRect().getWidth() / 2;
+		Long centerY = (long) element.getRect().getY() + element.getRect().getHeight() / 2;
+
+		Object obj = js.executeScript("return document.elementFromPoint(arguments[0], arguments[1]);", centerX,
+				centerY);
+
+		System.out.println(obj);
+	}
+
+	public static void retryClick(By locator, int retries) {
+		for (int attempt = 1; attempt <= retries; attempt++) {
+
+			try {
+
+				WebElement element = WaitUtils.waitForClickable(locator, 10);
+
+				((JavascriptExecutor) DriverFactory.getDriver())
+						.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+
+				// Find which element is intercepting the click
+				JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getDriver();
+
+				int centerX = element.getRect().getX() + element.getRect().getWidth() / 2;
+				int centerY = element.getRect().getY() + element.getRect().getHeight() / 2;
+
+				String html = (String) js.executeScript(
+					    "var e = document.elementFromPoint(arguments[0], arguments[1]);" +
+					    "return e ? e.outerHTML : 'No element';",
+					    centerX,
+					    centerY);
+
+					System.out.println("Intercepting element:");
+					System.out.println(html);
+
+				element.click();
+				return;
+
+			} catch (StaleElementReferenceException e) {
+
+				if (attempt == retries) {
+					throw e;
+				}
+			}
+		}
+	}
+
 	public static void clickStaleElement(WebElement element, int retries) {
 		for (int attempt = 1; attempt <= retries; attempt++) {
 			try {
 				WaitUtils.waitForClickable(element, 10);
+				((JavascriptExecutor) DriverFactory.getDriver())
+						.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 				element.click();
 				return;
 			} catch (StaleElementReferenceException e) {
@@ -85,6 +137,8 @@ public class ActionUtils {
 			try {
 				WebElement element = DriverFactory.getDriver().findElement(locator);
 				WaitUtils.waitForClickable(element, 10);
+				((JavascriptExecutor) DriverFactory.getDriver())
+						.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 				element.click();
 				return;
 			} catch (StaleElementReferenceException e) {
@@ -93,7 +147,6 @@ public class ActionUtils {
 				}
 			}
 		}
-
 	}
 
 	public static WebElement getVisibleElement(By locator) {

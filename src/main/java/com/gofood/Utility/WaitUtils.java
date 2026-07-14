@@ -14,9 +14,9 @@ public class WaitUtils {
 	protected static WebDriverWait wait;
 	protected static JavascriptExecutor jse;
 
-	public static void waitForVisibility(WebElement element, int sec) {
+	public static WebElement waitForVisibility(WebElement element, int sec) {
 		wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(sec));
-		wait.until(ExpectedConditions.visibilityOf(element));
+		return wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
 	public static WebElement waitForVisibility(By locator, int sec) {
@@ -29,9 +29,9 @@ public class WaitUtils {
 		wait.until(ExpectedConditions.visibilityOfAllElements(element));
 	}
 
-	public static void waitForClickable(WebElement element, int sec) {
+	public static WebElement waitForClickable(WebElement element, int sec) {
 		wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(sec));
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 	public static WebElement waitForClickable(By by, int sec) {
@@ -56,15 +56,20 @@ public class WaitUtils {
 	}
 
 	public static WebElement waitForAnyVisible(int timeoutSeconds, By... locators) {
-	    WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(timeoutSeconds));
-	    return wait.until(driver -> {
-	        for (By locator : locators) {
-	            List<WebElement> found = driver.findElements(locator);
-	            if (!found.isEmpty() && found.get(0).isDisplayed()) {
-	                return found.get(0);
-	            }
-	        }
-	        return null; // keep polling
-	    });
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(timeoutSeconds));
+		return wait.until(driver -> {
+			for (By locator : locators) {
+				List<WebElement> found = driver.findElements(locator);
+				if (!found.isEmpty() && found.get(0).isDisplayed()) {
+					return found.get(0);
+				}
+			}
+			return null; // keep polling
+		});
+	}
+
+	public static boolean waitForInvisibility(By locator, int timeout) {
+		return new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(timeout))
+				.until(ExpectedConditions.invisibilityOfElementLocated(locator));
 	}
 }

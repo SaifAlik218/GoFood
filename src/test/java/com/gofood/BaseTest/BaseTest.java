@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
@@ -18,9 +19,9 @@ public class BaseTest {
 
 	@Parameters("browser")
 	@BeforeClass
-	public void setup() throws Exception {
+	public void setup(@Optional("chrome")String browser) throws Exception {
 		log.info("===Starting test on thread: {}====", Thread.currentThread().getId());
-		DriverFactory.initializeDriver(ConfigReader.getInstance().getConfig("browser"));
+		DriverFactory.initializeDriver(browser);
 		DriverFactory.getDriver().get(ConfigReader.getInstance().getConfig("url"));
 		DriverFactory.getDriver().manage().window().maximize();
 		new LoginPage().clickAcceptCookies();
@@ -31,9 +32,9 @@ public class BaseTest {
 		softAssert = new SoftAssert();
 	}
 //
-//	@AfterClass
-//	public void teardown() {
-//		log.info("=== Test finished, quitting driver ===");
-//		DriverFactory.teardown();
-//	}
+	@AfterClass
+	public void teardown() {
+		log.info("=== Test finished, quitting driver ===");
+		DriverFactory.teardown();
+	}
 }

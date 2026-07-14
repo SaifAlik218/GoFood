@@ -39,18 +39,39 @@ public class CommonFlowUtils {
 		}
 	}
 
-	public static void loginToAccount(String phoneNumber, String otp) {
+	public static LoginPage loginToAccount(String phoneNumber, String otp) {
 		log.info("Attempting to enter phonenumber: {}", phoneNumber);
+		LoginPage page = new LoginPage();
 		try {
-			new LoginPage().modalLoginButton().enterPhoneNumber(phoneNumber).clickPhoneContinueButton().enterOTP(otp)
+
+			page.modalLoginButton().enterPhoneNumber(phoneNumber).clickPhoneContinueButton().enterOTP(otp)
 					.clickOTPContinueButton();
 			log.info("Successfully entered phonenumber: {}", phoneNumber);
+			return page;
 		} catch (Exception e) {
 			String failedLocator = extractLocator(e);
-			log.error("Failed to enter phonenumber {}", phoneNumber);
+			log.error("Failed to enter phonenumber {} | Locator: {}", phoneNumber, failedLocator, e);
 			throw new RuntimeException("loginToAccount flow failed for phoneNumber: " + phoneNumber + " | Reason: "
 					+ e.getClass().getSimpleName() + " | Locator: " + failedLocator, e);
+		}
+	}
+	public static LoginPage loginToAccount(String phoneNumber, String otp,boolean clickHeaderLoginButton) {
+		log.info("Attempting to enter phonenumber: {}", phoneNumber);
+		LoginPage page = new LoginPage();
+		if (clickHeaderLoginButton) {
+			page.headerLoginButton();
+		}
+		try {
 
+			page.modalLoginButton().enterPhoneNumber(phoneNumber).clickPhoneContinueButton().enterOTP(otp)
+					.clickOTPContinueButton();
+			log.info("Successfully entered phonenumber: {}", phoneNumber);
+			return page;
+		} catch (Exception e) {
+			String failedLocator = extractLocator(e);
+			log.error("Failed to enter phonenumber {} | Locator: {}", phoneNumber, failedLocator, e);
+			throw new RuntimeException("loginToAccount flow failed for phoneNumber: " + phoneNumber + " | Reason: "
+					+ e.getClass().getSimpleName() + " | Locator: " + failedLocator, e);
 		}
 	}
 
@@ -72,7 +93,5 @@ public class CommonFlowUtils {
 		}
 		return "unknown";
 	}
-	
-	
 
 }

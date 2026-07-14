@@ -26,7 +26,13 @@ public class DriverFactory {
 			driver.set(new ChromeDriver(options));
 		} else if (browser.equalsIgnoreCase("safari")) {
 			log.info("Initializing Safari driver for browser: {}", browser);
-			driver.set(new SafariDriver());
+//			driver.set(new SafariDriver());
+			try {
+				driver.set(new SafariDriver());
+			} catch (Exception e) {
+				log.error("Safari driver failed to start", e);
+				throw e;
+			}
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			log.info("Initializing Firefox driver for browser: {}", browser);
 			driver.set(new FirefoxDriver());
@@ -46,11 +52,15 @@ public class DriverFactory {
 	}
 
 	public static void teardown() {
-		if (driver != null) {
+		WebDriver currentDriver = driver.get();
+		if (currentDriver != null) {
 			log.info("Quitting driver on thread: {}", Thread.currentThread().getId());
-			driver.get().quit();
+			currentDriver.quit();
 			driver.remove();
+		} else {
+			log.warn("teardown() called but no driver was initialized on thread: {}", Thread.currentThread().getId());
 		}
+
 	}
 
 }

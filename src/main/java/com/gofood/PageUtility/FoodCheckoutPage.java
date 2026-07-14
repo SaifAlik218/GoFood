@@ -8,6 +8,7 @@ import com.gofood.BasePage.BasePage;
 import com.gofood.Factory.DriverFactory;
 import com.gofood.Utility.ActionUtils;
 import com.gofood.Utility.ConfigReader;
+import com.gofood.Utility.ScreenShotUtils;
 import com.gofood.Utility.WaitUtils;
 
 public class FoodCheckoutPage extends BasePage {
@@ -27,7 +28,7 @@ public class FoodCheckoutPage extends BasePage {
 	@FindBy(xpath = "//button[@type='button' and contains(@class,'inline-flex cursor-pointer appearance-none')]/../span")
 	private WebElement paymentMethodButton;
 
-	@FindBy(xpath = "//span[text()='GoFood now']")
+	@FindBy(xpath = "//button[.//span[text()='GoFood now']]")
 	private WebElement gofoodButton;
 
 	@FindBy(xpath = "(//span[text()='GoFood now'])[2]")
@@ -95,10 +96,15 @@ public class FoodCheckoutPage extends BasePage {
 	}
 
 	public FoodCheckoutPage clickGofoodButton() {
-		WaitUtils.waitForClickable(gofoodButton, 20);
+//		WaitUtils.waitForClickable(gofoodButton, 20);
+//		System.out.println("Displayed : " + gofoodButton.isDisplayed());
+//		System.out.println("Enabled   : " + gofoodButton.isEnabled());
+//		System.out.println("Location  : " + gofoodButton.getLocation());
+//		System.out.println("Size      : " + gofoodButton.getSize());
 //		ActionUtils.click(gofoodButton);
 //		ActionUtils.clickStaleElement(gofoodButton, 3);
-		ActionUtils.clickStaleElement(By.xpath("//span[text()='GoFood now']"), 3);
+		ActionUtils.clickStaleElement(By.xpath("//button[.//span[text()='GoFood now']]"), 5);
+//		ActionUtils.retryClick(By.xpath("//button[.//span[text()='GoFood now']]"), 3);
 		return this;
 	}
 

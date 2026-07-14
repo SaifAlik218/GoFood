@@ -1,5 +1,6 @@
 package com.gofood.PageUtility;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
@@ -14,8 +15,10 @@ public class LoginPage extends BasePage {
 		super(DriverFactory.getDriver());
 	}
 
-	@FindBy(xpath = "//*[@type='button' and @data-testid='login-signup-button']")
-	private WebElement headerLogin;
+//	@FindBy(xpath = "//*[@type='button' and @data-testid='login-signup-button']")
+//	private WebElement headerLogin;
+
+//	private final By headerLogin = By.xpath("//*[@type='button' and @data-testid='login-signup-button']");
 
 	@FindBy(xpath = "//button[@type='button' and @data-testid='login-button']")
 	private WebElement modalLogin;
@@ -39,13 +42,17 @@ public class LoginPage extends BasePage {
 	private WebElement backButton;
 
 	public LoginPage headerLoginButton() {
-		WaitUtils.waitForClickable(headerLogin, 5);
+		By headerLoginButtonLocator = By.xpath("//*[@type='button' and @data-testid='login-signup-button']");
+		WebElement headerLogin = WaitUtils.waitForVisibility(headerLoginButtonLocator, 15);
+		WaitUtils.waitForClickable(headerLogin, 15);
 		headerLogin.click();
-		return this;
+		return new LoginPage();
 	}
 
 	public LoginPage modalLoginButton() {
-		WaitUtils.waitForClickable(modalLogin, 5);
+		By modalLoginButtonLocator = By.xpath("//button[@type='button' and @data-testid='login-button']");
+		WebElement modalLogin = WaitUtils.waitForVisibility(modalLoginButtonLocator, 15);
+		WaitUtils.waitForClickable(modalLogin, 15);
 		modalLogin.click();
 		return this;
 	}
@@ -70,7 +77,7 @@ public class LoginPage extends BasePage {
 
 	public LoginPage clickAcceptCookies() {
 		try {
-			WaitUtils.waitForClickable(cookiesPopup, 10);
+			WaitUtils.waitForClickable(cookiesPopup, 15);
 			if (cookiesPopup.isDisplayed()) {
 				cookiesPopup.click();
 				System.out.println("Cookie popup accepted.");
@@ -85,7 +92,7 @@ public class LoginPage extends BasePage {
 		int maxAttempts = 3;
 		for (int attempt = 1; attempt <= maxAttempts; attempt++) {
 			try {
-				WaitUtils.waitForVisibility(otpField, 5);
+				WaitUtils.waitForVisibility(otpField, 15);
 				otpField.click();
 				otpField.sendKeys(OTP);
 				if (otpField.getAttribute("value").equals(OTP)) {
@@ -102,7 +109,7 @@ public class LoginPage extends BasePage {
 	}
 
 	public LoginPage clickBackButton() {
-		WaitUtils.waitForClickable(backButton, 5);
+		WaitUtils.waitForClickable(backButton, 15);
 		backButton.click();
 		return this;
 	}

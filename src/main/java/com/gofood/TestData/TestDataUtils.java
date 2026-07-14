@@ -7,6 +7,7 @@ public class TestDataUtils {
 	private static Map<String, String> LOGIN_DATA() {
 		Map<String, String> user1 = new HashMap<String, String>();
 		user1.put("phoneNumber", "3626483168");
+		user1.put("phoneNumber1", "3765348759");
 		user1.put("otp", "1234");
 		return user1;
 	}
@@ -21,6 +22,10 @@ public class TestDataUtils {
 
 	public static String getPhoneNumber() {
 		return LOGIN_DATA().get("phoneNumber");
+	}
+
+	public static String getPhoneNumber1() {
+		return LOGIN_DATA().get("phoneNumber1");
 	}
 
 	public static String getOTP() {

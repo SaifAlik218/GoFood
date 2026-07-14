@@ -1,81 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-10T18:47:00 IST" name="Default suite" finished-at="2026-07-10T18:47:16 IST" duration-ms="15945">
+  <suite started-at="2026-07-15T01:59:45 IST" name="Default suite" finished-at="2026-07-15T02:00:00 IST" duration-ms="14554">
     <groups>
     </groups>
-    <test started-at="2026-07-10T18:47:00 IST" name="Default test" finished-at="2026-07-10T18:47:16 IST" duration-ms="15945">
-      <class name="com.gofood.TestCases.AddMoreDishFromCheckoutPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:00 IST" name="setup" finished-at="2026-07-10T18:47:06 IST" duration-ms="5660" status="PASS">
+    <test started-at="2026-07-15T01:59:45 IST" name="Default test" finished-at="2026-07-15T02:00:00 IST" duration-ms="14554">
+      <class name="com.gofood.TestCases.UserLoginAndLogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.gofood.TestCases.UserLoginAndLogoutTest@74f6c5d8]" started-at="2026-07-15T01:59:45 IST" name="setup" finished-at="2026-07-15T01:59:50 IST" duration-ms="5017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:06 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.UserLoginAndLogoutTest@74f6c5d8]" started-at="2026-07-15T01:59:50 IST" name="initSoftAssert" finished-at="2026-07-15T01:59:50 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifySelectCuisine()[pri:1, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:06 IST" name="verifySelectCuisine" finished-at="2026-07-10T18:47:07 IST" duration-ms="387" status="PASS">
+        <test-method signature="verifyUserLoginAndLogoutTest()[pri:0, instance:com.gofood.TestCases.UserLoginAndLogoutTest@74f6c5d8]" started-at="2026-07-15T01:59:50 IST" name="verifyUserLoginAndLogoutTest" finished-at="2026-07-15T02:00:00 IST" duration-ms="9397" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySelectCuisine -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:07 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:07 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyUserLoginAndLogoutTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gofood.TestCases.UserLoginAndLogoutTest@74f6c5d8]" started-at="2026-07-15T02:00:00 IST" name="teardown" finished-at="2026-07-15T02:00:00 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifySelectBaksoSotoRestro()[pri:2, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:07 IST" name="verifySelectBaksoSotoRestro" finished-at="2026-07-10T18:47:07 IST" duration-ms="905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectBaksoSotoRestro -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:07 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:07 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifyAddDishFromMenu()[pri:3, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:07 IST" name="verifyAddDishFromMenu" finished-at="2026-07-10T18:47:09 IST" duration-ms="1602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddDishFromMenu -->
-        <test-method signature="verifyLoginToAccount()[pri:4, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:09 IST" name="verifyLoginToAccount" finished-at="2026-07-10T18:47:11 IST" duration-ms="1939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginToAccount -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:09 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifyScrollToAddMoreButton()[pri:5, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:11 IST" name="verifyScrollToAddMoreButton" finished-at="2026-07-10T18:47:12 IST" duration-ms="1442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyScrollToAddMoreButton -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:11 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:11 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifyAddMoreDishes()[pri:6, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:12 IST" name="verifyAddMoreDishes" finished-at="2026-07-10T18:47:14 IST" duration-ms="1330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddMoreDishes -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:12 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:14 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:14 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-        <test-method signature="verifySelectVoucher()[pri:7, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:14 IST" name="verifySelectVoucher" finished-at="2026-07-10T18:47:15 IST" duration-ms="1485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectVoucher -->
-        <test-method signature="verifyOrderFood()[pri:8, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:15 IST" name="verifyOrderFood" finished-at="2026-07-10T18:47:16 IST" duration-ms="1159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrderFood -->
-        <test-method is-config="true" signature="initSoftAssert()[pri:0, instance:com.gofood.TestCases.AddMoreDishFromCheckoutPageTest@4bbf6d0e]" started-at="2026-07-10T18:47:15 IST" name="initSoftAssert" finished-at="2026-07-10T18:47:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSoftAssert -->
-      </class> <!-- com.gofood.TestCases.AddMoreDishFromCheckoutPageTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.gofood.TestCases.UserLoginAndLogoutTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

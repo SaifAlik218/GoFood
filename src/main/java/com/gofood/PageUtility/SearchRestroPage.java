@@ -38,7 +38,7 @@ public class SearchRestroPage extends BasePage {
 	}
 
 	public SearchRestroPage clickBakmieBaksoRestro() {
-		ActionUtils.scrollToElement(Bakmie_Bakso17Restro);
+		ActionUtils.clickStaleElement(Bakmie_Bakso17Restro,3);
 		WaitUtils.waitForClickable(Bakmie_Bakso17Restro, 10);
 		Bakmie_Bakso17Restro.click();
 		return this;

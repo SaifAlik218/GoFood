@@ -12,26 +12,34 @@ import com.gofood.Utility.CommonFlowUtils;
 import com.gofood.Utility.TestDataUtils;
 
 public class SearchPlaceAndSelectRestroTest extends BaseTest {
-
-	@Test(priority = 1)
-	public void searchPlace() {
+	
+	@Test
+	public void verifySearchPlaceAndSelectRestro()
+	{
 		CommonFlowUtils.searchAndSelectLocation(TestDataUtils.getJakartaArea());
-	}
-
-	@Test(priority = 2)
-	public void selectRestro() {
 		CommonFlowUtils.selectRestroAndDish();
 		CommonActions action = new CommonActions();
 		action.clickRestroTimingChevron(1);
 		action.clickCloseModal();
 //		new LoginPage().clickAcceptCookies();
 		new SelectDishPage().addToCart().loginToButton();
-		
-	}
-
-	@Test(priority = 3)
-	public void loginToAccount() {
 		CommonFlowUtils.loginToAccount(TestDataUtils.getPhoneNumber(),
 				TestDataUtils.getOTP());
 	}
+
+//	@Test(priority = 1)
+//	public void searchPlace() {
+//		
+//	}
+//
+//	@Test(priority = 2)
+//	public void selectRestro() {
+//		
+//		
+//	}
+//
+//	@Test(priority = 3)
+//	public void loginToAccount() {
+//		
+//	}
 }

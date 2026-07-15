@@ -25,11 +25,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.5.3</version>
 				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>
-
-						</suiteXmlFile>
-					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 

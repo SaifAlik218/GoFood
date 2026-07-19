@@ -15,9 +15,9 @@ public class TestDataUtils {
 
     private static Map<String, String> SEARCH_AREA() {
         Map<String, String> area = new HashMap<String, String>();
-        area.put("jakarta", "jakarta");
-        area.put("bali", "bali");
-        area.put("yogyakarta", "yogyakarta");
+        area.put("jakarta", "Jakarta");
+        area.put("bali", "Bali");
+        area.put("yogyakarta", "Yogyakarta");
         return area;
     }
 

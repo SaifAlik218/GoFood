@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Gofood Functional Suite" parallel = "tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.gofood.Utility.ListenersUtility">
+		</listener>
+	</listeners>
+	<test name="Chrome Suite">
+		<parameter name="browser" value="chrome" />
+        <parameter name="phoneNumber" value="3626483168"/>
+        <parameter name="OTP" value="1234"/>
+		<classes>
+			<class name="com.gofood.TestCases.UserLoginTest" />
+			<class
+				name="com.gofood.TestCases.SearchPlaceAndSelectRestroTest" />
+			<class
+				name="com.gofood.TestCases.SearchPlaceAndSelectRestroIncreaseProductTest" />
+            <class
+                    name="com.gofood.TestCases.OrderFoodViaCepaatTest" />
+            <class
+                    name="com.gofood.TestCases.ChooseCuisineTest" />
+            <class
+                    name="com.gofood.TestCases.AddMoreDishFromCheckoutPageTest" />
+            <class
+                    name="com.gofood.TestCases.UserLoginAndLogoutTest" />
+		</classes>
+	</test>
+    <test name="Safari Test">
+        <parameter name="browser" value="safari"/>
+        <parameter name="phoneNumber" value="3765348759" />
+        <parameter name="OTP" value="1234"/>
+        <classes>
+            <class name="com.gofood.TestCases.UserLoginTest" />
+            <class
+                    name="com.gofood.TestCases.SearchPlaceAndSelectRestroTest" />
+            <class
+                    name="com.gofood.TestCases.SearchPlaceAndSelectRestroIncreaseProductTest" />
+            <class
+                    name="com.gofood.TestCases.OrderFoodViaCepaatTest" />
+            <class
+                    name="com.gofood.TestCases.ChooseCuisineTest" />
+            <class
+                    name="com.gofood.TestCases.AddMoreDishFromCheckoutPageTest" />
+            <class
+                    name="com.gofood.TestCases.UserLoginAndLogoutTest" />
+        </classes>
+    </test> --><!-- Test -->
+</suite> <!-- Suite -->

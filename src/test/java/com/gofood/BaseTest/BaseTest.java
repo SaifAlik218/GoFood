@@ -18,7 +18,7 @@ public class BaseTest {
 	private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
 
 	@Parameters("browser")
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setup(@Optional("chrome")String browser) throws Exception {
 		log.info("===Starting test on thread: {}====", Thread.currentThread().getId());
 		DriverFactory.initializeDriver(browser);
@@ -32,7 +32,7 @@ public class BaseTest {
 		softAssert = new SoftAssert();
 	}
 //
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void teardown() {
 		log.info("=== Test finished, quitting driver ===");
 		DriverFactory.teardown();

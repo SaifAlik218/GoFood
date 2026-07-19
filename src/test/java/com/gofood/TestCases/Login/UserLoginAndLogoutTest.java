@@ -1,13 +1,11 @@
-package com.gofood.TestCases;
-
-import org.testng.Assert;
-import org.testng.annotations.Test;
+package com.gofood.TestCases.Login;
 
 import com.gofood.BaseTest.BaseTest;
 import com.gofood.PageUtility.LoginPage;
 import com.gofood.PageUtility.UserProfilePage;
 import com.gofood.TestData.TestDataUtils;
 import com.gofood.Utility.CommonFlowUtils;
+import org.testng.annotations.Test;
 
 public class UserLoginAndLogoutTest extends BaseTest {
     private String userName;

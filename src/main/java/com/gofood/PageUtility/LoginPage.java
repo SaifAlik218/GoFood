@@ -1,5 +1,6 @@
 package com.gofood.PageUtility;
 
+import com.gofood.Utility.ScreenShotUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 
@@ -37,8 +38,8 @@ public class LoginPage extends BasePage {
     private WebElement otpField;
 
     private By cookiesPopup1 = By.id("onetrust-accept-btn-handler");
-    @FindBy(id = "onetrust-accept-btn-handler")
-    private WebElement cookiesPopup;
+//    @FindBy(id = "onetrust-accept-btn-handler")
+//    private WebElement cookiesPopup;
 
     @FindBy(xpath = "(//*[@clip-rule='evenodd'])[4]")
     private WebElement backButton;
@@ -80,7 +81,8 @@ public class LoginPage extends BasePage {
     public LoginPage clickAcceptCookies() {
         log.info("Attempting to accept cookies");
         try {
-            WaitUtils.waitForClickable(cookiesPopup1, 15);
+          WebElement cookiesPopup = WaitUtils.waitForClickable(cookiesPopup1, 15);
+            ScreenShotUtils.onFailure("BeforeAcceptCookies");
             if (cookiesPopup.isDisplayed()) {
                 cookiesPopup.click();
                 log.info("Successfully accepted cookies");

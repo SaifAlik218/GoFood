@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="GoFood Suite" parallel="tests" thread-count="2">
-    <!-- <listeners>
+    <listeners>
         <listener class-name="com.gofood.Utility.ListenersUtility">
         </listener>
-    </listeners> -->
+    </listeners>
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"/>
         <parameter name="phoneNumber" value="3626483168"/>

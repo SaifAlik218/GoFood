@@ -1,5 +1,6 @@
 package com.gofood.BaseTest;
 
+import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
@@ -25,6 +26,7 @@ public class BaseTest {
 		DriverFactory.getDriver().get(ConfigReader.getInstance().getConfig("url"));
 		DriverFactory.getDriver().manage().window().maximize();
         new LoginPage().clickAcceptCookies();
+        System.out.println( DriverFactory.getDriver().findElements(By.id("onetrust-accept-btn-handler")).size());
 	}
 
 	@BeforeMethod

@@ -80,7 +80,7 @@ public class LoginPage extends BasePage {
     public LoginPage clickAcceptCookies() {
         log.info("Attempting to accept cookies");
         try {
-            WaitUtils.waitForClickable(cookiesPopup, 15);
+            WaitUtils.waitForClickable(cookiesPopup1, 15);
             if (cookiesPopup.isDisplayed()) {
                 cookiesPopup.click();
                 log.info("Successfully accepted cookies");

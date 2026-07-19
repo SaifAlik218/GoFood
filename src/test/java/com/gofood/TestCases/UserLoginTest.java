@@ -2,19 +2,16 @@ package com.gofood.TestCases;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
 
 import com.gofood.BaseTest.BaseTest;
 import com.gofood.PageUtility.LoginPage;
 import com.gofood.PageUtility.UserProfilePage;
 import com.gofood.Utility.CommonFlowUtils;
-import com.gofood.Utility.TestDataUtils;
 
 public class UserLoginTest extends BaseTest {
 	private String username = "A";
 
-	@Parameters({ "phoneNumber", "OTP" })
+	@Parameters({"phoneNumber", "OTP" })
 	@Test
 	public void verifyUserLoginAndProfile(String phoneNumber,String OTP) {
 		// Navigate to Login Page

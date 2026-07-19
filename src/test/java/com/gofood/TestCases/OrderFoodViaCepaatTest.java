@@ -1,5 +1,6 @@
 package com.gofood.TestCases;
 
+import com.gofood.TestData.TestDataUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
@@ -10,10 +11,9 @@ import com.gofood.PageUtility.OrderConfirmationPage;
 import com.gofood.PageUtility.SearchRestroPage;
 import com.gofood.PageUtility.SelectDishPage;
 import com.gofood.Utility.CommonFlowUtils;
-import com.gofood.Utility.TestDataUtils;
 
-public class OrderFoodViaCepaat extends BaseTest {
-	private static final Logger log = LoggerFactory.getLogger(OrderFoodViaCepaat.class);
+public class OrderFoodViaCepaatTest extends BaseTest {
+	private static final Logger log = LoggerFactory.getLogger(OrderFoodViaCepaatTest.class);
 	private FoodCheckoutPage checkOutPage;
 	private OrderConfirmationPage confirmationPage;
 

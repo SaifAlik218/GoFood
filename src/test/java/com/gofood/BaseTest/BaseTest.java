@@ -24,7 +24,7 @@ public class BaseTest {
 		DriverFactory.initializeDriver(browser);
 		DriverFactory.getDriver().get(ConfigReader.getInstance().getConfig("url"));
 		DriverFactory.getDriver().manage().window().maximize();
-		new LoginPage().clickAcceptCookies();
+        new LoginPage().clickAcceptCookies();
 	}
 
 	@BeforeMethod

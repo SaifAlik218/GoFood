@@ -1,5 +1,6 @@
 package com.gofood.PageUtility;
 
+import com.gofood.Utility.ActionUtils;
 import com.gofood.Utility.ScreenShotUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -7,8 +8,12 @@ import org.openqa.selenium.support.FindBy;
 import com.gofood.BasePage.BasePage;
 import com.gofood.Factory.DriverFactory;
 import com.gofood.Utility.WaitUtils;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.time.Duration;
+import java.util.List;
 
 public class LoginPage extends BasePage {
     private static final Logger log = LoggerFactory.getLogger(LoginPage.class);
@@ -80,11 +85,23 @@ public class LoginPage extends BasePage {
 
     public LoginPage clickAcceptCookies() {
         log.info("Attempting to accept cookies");
+        // Take screenshot before doing anything
+        ScreenShotUtils.onFailure("BeforeAcceptCookies");
+        // Debugging
+        List<WebElement> buttons = DriverFactory.getDriver().findElements(cookiesPopup1);
+        System.out.println("Buttons found: " + buttons.size());
+
+        if (!buttons.isEmpty()) {
+            System.out.println(buttons.get(0).getAttribute("outerHTML"));
+        }
         try {
           WebElement cookiesPopup = WaitUtils.waitForClickable(cookiesPopup1, 15);
-            ScreenShotUtils.onFailure("BeforeAcceptCookies");
+            new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(2))
+                    .until(driver -> cookiesPopup.isDisplayed());
+
             if (cookiesPopup.isDisplayed()) {
-                cookiesPopup.click();
+                ActionUtils.click(cookiesPopup);
+//                cookiesPopup.click();
                 log.info("Successfully accepted cookies");
             }
         } catch (TimeoutException e) {

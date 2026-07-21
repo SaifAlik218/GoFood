@@ -11,6 +11,7 @@ import com.gofood.Utility.CommonFlowUtils;
 
 public class UserLoginAndLogoutTest extends BaseTest {
     private String userName;
+    private LoginPage page;
 
     @Test
     public void verifyUserLoginAndLogoutTest() {
@@ -21,5 +22,6 @@ public class UserLoginAndLogoutTest extends BaseTest {
         String userName = profile.getUserProfile();
         softAssert.assertEquals(userName, "Expected results: ", TestDataUtils.getUserName());
         profile.clickProfileButton().clickLogoutButton();
+        softAssert.assertAll();
     }
 }

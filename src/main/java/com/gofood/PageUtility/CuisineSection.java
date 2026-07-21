@@ -12,6 +12,8 @@ import com.gofood.Utility.ActionUtils;
 import com.gofood.Utility.WaitUtils;
 import org.slf4j.Logger;
 
+import java.util.List;
+
 public class CuisineSection extends BasePage {
 	private static WebDriver driver;
 	private static final Logger log = LoggerFactory.getLogger(CuisineSection.class);
@@ -55,4 +57,9 @@ public class CuisineSection extends BasePage {
 		log.info("Successfully clicked on Show More Cuisine Button ");
 		return this;
 	}
+    public String isCuisinePresent(String cuisineName)
+    {
+        By cuisine=By.xpath("//h3[@title='"+cuisineName+"']");
+        return WaitUtils.waitForVisibility(cuisine,10).getText();
+    }
 }

@@ -89,4 +89,18 @@ public class TestDataUtils {
     public static String getSnacks() {
         return Cuisine().get("Snacks");
     }
+    private static Map<String,String> RESTROS()
+    {
+        Map<String,String> restro= new HashMap<String,String>();
+        restro.put("Bakmie & Bakso 17","Bakmie & Bakso 17");
+        restro.put("Pinky Porky","Pinky Porky");
+        return restro;
+    }
+
+    public static String getBakmieBakso()
+    {
+        return RESTROS().get("Bakmie & Bakso 17");
+    }
+
+
 }

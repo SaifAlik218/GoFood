@@ -1,5 +1,8 @@
 package com.gofood.Utility;
 
+import com.gofood.MenuPageUtility.Bakmie_Bakso17MenuPage;
+import com.gofood.RestaurantPageUtility.RestaurantsPageUtils;
+import com.gofood.TestData.Bakmie_Bakso17Restro.Bakmie_Bakso17DishesTestData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,12 +28,50 @@ public class CommonFlowUtils {
         }
     }
 
-    public static  SearchRestroPage selectRestroAndDish() {
-        SearchRestroPage restroPage  = new SearchRestroPage();
+    public static SearchRestroPage selectRestroAndDish() {
+        SearchRestroPage restroPage = new SearchRestroPage();
         try {
             log.info("Attempting to select restro and dish:");
             restroPage.clickBakmieBaksoRestro();
             new SelectDishPage().addBakmieAyanDish();
+            log.info("Successfully selected restro and dish:");
+            return restroPage;
+        } catch (Exception e) {
+            String failedLocator = extractLocator(e);
+            log.error("Failed to select restro and dish");
+            throw new RuntimeException("Selecting restro and failed : " + " | Reason: " + e.getClass().getSimpleName()
+                    + " | Locator: " + failedLocator, e);
+        }
+    }
+
+    public static SearchRestroPage selectRestroAndDish(String selectRestro, String selectDish) {
+        SearchRestroPage restroPage = new SearchRestroPage();
+        Bakmie_Bakso17MenuPage bakmieBakso17RestroPage
+                = new Bakmie_Bakso17MenuPage();
+        RestaurantsPageUtils restaurantsPageUtils = new RestaurantsPageUtils();
+        try {
+            log.info("Attempting to select restro and dish:");
+            restaurantsPageUtils.chooseRestro(selectRestro);
+            bakmieBakso17RestroPage.clickDishAddButton(selectDish);
+            log.info("Successfully selected restro and dish:");
+            return restroPage;
+        } catch (Exception e) {
+            String failedLocator = extractLocator(e);
+            log.error("Failed to select restro and dish");
+            throw new RuntimeException("Selecting restro and failed : " + " | Reason: " + e.getClass().getSimpleName()
+                    + " | Locator: " + failedLocator, e);
+        }
+    }
+
+    public static SearchRestroPage selectRestroAndDish(String selectRestro) {
+        SearchRestroPage restroPage = new SearchRestroPage();
+        Bakmie_Bakso17MenuPage bakmieBakso17RestroPage
+                = new Bakmie_Bakso17MenuPage();
+        RestaurantsPageUtils restaurantsPageUtils = new RestaurantsPageUtils();
+        try {
+            log.info("Attempting to select restro and dish:");
+            restaurantsPageUtils.chooseRestro(selectRestro);
+            bakmieBakso17RestroPage.clickDishAddButton(Bakmie_Bakso17DishesTestData.BAKMIE_AYAN.getDish());
             log.info("Successfully selected restro and dish:");
             return restroPage;
         } catch (Exception e) {

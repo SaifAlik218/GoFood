@@ -89,7 +89,7 @@ public class LoginPage extends BasePage {
         ScreenShotUtils.onFailure("BeforeAcceptCookies");
         // Debugging
         List<WebElement> buttons = DriverFactory.getDriver().findElements(cookiesPopup1);
-        System.out.println("Buttons found: " + buttons.size());
+//        System.out.println("Buttons found: " + buttons.size());
 
         if (!buttons.isEmpty()) {
             System.out.println(buttons.get(0).getAttribute("outerHTML"));

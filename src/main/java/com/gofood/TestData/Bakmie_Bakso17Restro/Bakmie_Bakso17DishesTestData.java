@@ -1,4 +1,4 @@
-package com.gofood.TestData;
+package com.gofood.TestData.Bakmie_Bakso17Restro;
 
 public enum Bakmie_Bakso17DishesTestData {
 

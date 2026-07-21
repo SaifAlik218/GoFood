@@ -11,6 +11,8 @@
         <classes>
             <class name="com.gofood.TestCases.UserLoginTest"/>
             <class
+                    name="com.gofood.TestCases.UserLoginAndLogoutTest"/>
+            <class
                     name="com.gofood.TestCases.SearchPlaceAndSelectRestroTest"/>
             <class
                     name="com.gofood.TestCases.SearchPlaceAndSelectRestroIncreaseProductTest"/>
@@ -21,7 +23,7 @@
             <class
                     name="com.gofood.TestCases.AddMoreDishFromCheckoutPageTest"/>
             <class
-                    name="com.gofood.TestCases.UserLoginAndLogoutTest"/>
+                    name="com.gofood.TestCases.CheckRestroQuantityCountAndCheckoutCountTest"/>
         </classes>
     </test>
     <!-- Test -->

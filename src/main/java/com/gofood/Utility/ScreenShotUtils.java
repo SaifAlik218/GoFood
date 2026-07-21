@@ -17,18 +17,19 @@ public class ScreenShotUtils {
 		try {
 			screenshotfolder = new File(ConfigReader.getConfig("screenshot"));
 			if (!screenshotfolder.exists()) {
-				screenshotfolder.mkdir();
+				screenshotfolder.mkdirs();
 			}
 			TakesScreenshot takeScreenshot = (TakesScreenshot) DriverFactory.getDriver();
 			File store = takeScreenshot.getScreenshotAs(OutputType.FILE);
 			String screenshotName = ConfigReader.getConfig("screenshot") + "/" + filename + "_" + date + ".png";
 			File perm = new File(screenshotName);
 			FileHandler.copy(store, perm);
+            System.out.println(screenshotName);
+            System.out.println(new File(screenshotName).exists());
 			return screenshotName;
 		} catch (Exception e) {
 			throw new RuntimeException("Invalid screenshot path" + e.getMessage());
 		}
 
 	}
-
 }

@@ -26,10 +26,10 @@ public class BaseTest {
         DriverFactory.initializeDriver(browser);
         DriverFactory.getDriver().get(ConfigReader.getInstance().getConfig("url"));
         DriverFactory.getDriver().manage().window().maximize();
-        String path = ScreenShotUtils.onFailure("HomepageLoaded");
-        System.out.println("Screenshot saved at : " + path);
+//        String path = ScreenShotUtils.onFailure("HomepageLoaded");
+//        System.out.println("Screenshot saved at : " + path);
         new LoginPage().clickAcceptCookies();
-        System.out.println(DriverFactory.getDriver().findElements(By.id("onetrust-accept-btn-handler")).size());
+//        System.out.println(DriverFactory.getDriver().findElements(By.id("onetrust-accept-btn-handler")).size());
     }
 
     @BeforeMethod
@@ -37,7 +37,7 @@ public class BaseTest {
         softAssert = new SoftAssert();
     }
 
-    //
+
     @AfterClass(alwaysRun = true)
     public void teardown() {
         log.info("=== Test finished, quitting driver ===");
